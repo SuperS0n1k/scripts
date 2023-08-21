@@ -9,9 +9,4 @@ console.log(perms);
 fetch('https://raw.githubusercontent.com/LoganAbel/ScratchMath/main/Math.js').then(r=>r.text()).then(t=>eval(t))
 fetch('https://raw.githubusercontent.com/SuperS0n1k/scratch3-extensions/main/ScratchJSnomods.js').then(r=>r.text()).then(t=>eval(t))
 }
-try {
 root()
-}
-catch(err) {
-alert(err)
-}
