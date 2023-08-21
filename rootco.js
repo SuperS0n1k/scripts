@@ -7,5 +7,5 @@ document.querySelector('#app')._reactRootContainer._internalRoot.current.child.s
 let perms = document.querySelector('#app')._reactRootContainer._internalRoot.current.child.stateNode.props.store.getState().permissions;
 console.log(perms);
 console.log("installing")
-fetch('https://raw.githubusercontent.com/SuperS0n1k/scratch3-extensions/main/ScratchJSnomods.js').then(r=>r.text()).then(t=>eval(t))
+fetch('https://raw.githubusercontent.com/SuperS0n1k/scratch3-extensions/main/ScratchJSnomod.js').then(r=>r.text()).then(t=>eval(t))
 console.log("done")
