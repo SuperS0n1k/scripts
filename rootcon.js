@@ -201,13 +201,3 @@ window.vm = findReactComponent(document.getElementsByClassName("stage-header_sta
     var serviceName = window.vm.extensionManager._registerInternalExtension(extensionInstance)
     window.vm.extensionManager._loadedExtensions.set(extensionInstance.getInfo().id, serviceName)
 })()
-
-var xhttp = new XMLHttpRequest();
-  xhttp.onreadystatechange = function() {
-    if (this.readyState == 4 && this.status == 200) {
-      document.getElementsByClassName("project-loves").innerHTML =
-      this.responseText;
-    }
-  };
-  xhttp.open("GET", "https://scratch.mit.edu/session/", true);
-  xhttp.send();
